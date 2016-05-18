@@ -1,0 +1,51 @@
+Design Views
+
+
+navigation bar
+	home
+	back (sometimes)
+	title
+	menu
+		Volunteer:
+			your profile
+			log out
+
+
+
+
+Landing Page 
+signup page 1 (volunteer/refugee)
+signup page 2 (name/country of origin/...)
+signup page 3 (preferred topics)
+signup page 4 (create login)
+signup success
+log in page
+user profile page
+
+Volunteer:
+Homepage
+	Questions for You
+		your questions
+		answer question page
+		categorize question page
+		successful submission page
+
+	All Questions
+		your answered questions
+			category page
+		all answered questions
+		favorites
+
+
+Refugee:
+Homepage
+	Ask a Question ("What's your question?")
+		successful submission page
+	Your Questions
+		Recently Answered
+		Your Saved Answers
+	Browse Q&As
+		category pages
+
+
+
