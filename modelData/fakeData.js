@@ -175,8 +175,7 @@
    var question2 = {
       _id: "57231f1a30e4351f4e9f4bde",
       questionText: "How can I get to the DMV in Oakland", 
-      answerText: "You can take the BART to Rockridge station. It should be around 4 dollars and then walk. But I 
-      would recommend trying to finding a ride because it is much easier. You can try rideshare.com",
+      answerText: "You can take the BART to Rockridge station. It should be around 4 dollars and then walk. But I would recommend trying to finding a ride because it is much easier. You can try rideshare.com",
       askedBy: "57231f1a30e4351f4e9f4bd7", 
       answeredBy: "57231f1a30e4351f4e9f4bda", 
       timeAsked: "2012-09-30 10:44:23", 
@@ -187,8 +186,7 @@
 
    var question3 = {
       _id: "57231f1a30e4351f4e9f4be0", 
-      questionText: "I keep calling the MediCal office but they keep sending me to Voicemail. What information should I include in the 
-      voicemail so that they call me back?", 
+      questionText: "I keep calling the MediCal office but they keep sending me to Voicemail. What information should I include in the voicemail so that they call me back?", 
       answerText: "Just say your name and phone number and ask that they call you back as soon as possible.",
       askedBy: "57231f1a30e4351f4e9f4bd7", 
       answeredBy: "57231f1a30e4351f4e9f4bda", 
@@ -231,8 +229,8 @@
    var modelData =  {
       userListModel: userListModel,
       userModel: userModel,
-      questionListModel: questionListModel; 
-      questionModel: questionModel; 
+      questionListModel: questionListModel,
+      questionModel: questionModel
    };
 
    if( typeof exports !== 'undefined' ) {

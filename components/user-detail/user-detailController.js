@@ -1,6 +1,6 @@
 'use strict';
 
-cs142App.controller('UserDetailController', ['$scope', '$routeParams',
+refugeeAnswers.controller('UserDetailController', ['$scope', '$routeParams',
   function ($scope, $routeParams) {
     /*
      * Since the route is specified as '/users/:userId' in $routeProvider config the
@@ -9,7 +9,7 @@ cs142App.controller('UserDetailController', ['$scope', '$routeParams',
     var userId = $routeParams.userId;
     console.log('UserDetail of ', userId);
 
-    console.log('window.cs142models.userModel($routeParams.userId)',
-        window.cs142models.userModel(userId));
+    console.log('window.refugeeAnswers.userModel($routeParams.userId)',
+        window.refugeeAnswers.userModel(userId));
 
   }]);
