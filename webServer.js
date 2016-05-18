@@ -17,7 +17,7 @@ var portno = 3000;   // Port number to use
 
 var app = express();
 
-var cs142models = require('./modelData/photoApp.js').cs142models;
+var cs142models = require('./modelData/fakeData.js').cs142models;
 
 // We have the express static module (http://expressjs.com/en/starter/static-files.html) do all
 // the work for us.
