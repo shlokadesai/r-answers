@@ -1,8 +1,8 @@
 <!doctype html>
-<html ng-app="cs142App" ng-controller="MainController">
+<html ng-app="refugeeAnswers" ng-controller="MainController">
     <head>
 
-        <title>{{main.title || "CS142 Class Project"}}</title>
+        <title>{{main.title || "R.Answers"}}</title>
 
         <link href="./node_modules/angular-material/angular-material.css" rel="stylesheet" />
     
@@ -16,16 +16,13 @@
         <script src="mainController.js"></script>
         <link rel="stylesheet" type="text/css" href="main.css" />
 
-        <script src="components/user-list/user-listController.js"></script>
-        <link rel="stylesheet" type="text/css" href="components/user-list/user-list.css" />
-
         <script src="components/user-detail/user-detailController.js"></script>
         <link rel="stylesheet" type="text/css" href="components/user-detail/user-detail.css" />
 
-        <script src="components/user-photos/user-photosController.js"></script>
-        <link rel="stylesheet" type="text/css" href="components/user-photos/user-photos.css" />
+         <script src="components/home-page/home-pageController.js"></script>
+        <link rel="stylesheet" type="text/css" href="components/home-page/home-page.css" />
 
-        <script src="modelData/photoApp.js"></script>
+        <script src="modelData/fakeData.js"></script>
     </head>
 
     <body layout="column">

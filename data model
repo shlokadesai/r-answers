@@ -9,8 +9,7 @@ User
 	short bio
 	photo
 	preferred topics
-	favorites (array of question ISs)
-
+	favorites (array of question IDs)
 	questions (array of question IDs)
 
 Questions
