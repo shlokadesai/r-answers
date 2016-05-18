@@ -1,0 +1,25 @@
+User
+	user ID
+	name
+	age
+	country of origin
+	current city
+	job/expertise
+	language(s)
+	short bio
+	photo
+	preferred topics
+	favorites (array of question ISs)
+
+	Volunteer: questions answered
+	Refugee: questions asked (array of question IDs)
+
+Questions
+	ID
+	question text
+	answer text
+	asked by ... (user ID)
+	answered by ... (user ID)
+	time asked
+	time answered
+	category
