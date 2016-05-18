@@ -11,8 +11,7 @@ User
 	preferred topics
 	favorites (array of question ISs)
 
-	Volunteer: questions answered
-	Refugee: questions asked (array of question IDs)
+	questions (array of question IDs)
 
 Questions
 	ID
@@ -23,3 +22,4 @@ Questions
 	time asked
 	time answered
 	category
+	boolean isAnswered
