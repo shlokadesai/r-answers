@@ -50,19 +50,19 @@ refugeeAnswers.config(['$routeProvider',
                 controller: 'RefugeeYourQuestionsController'
             }).
             when('/signUp1', {
-                templateUrl: 'components/signUp1/signUp1.html',
+                templateUrl: 'components/signUp1/signUp1Template.html',
                 controller: 'SignUp1Controller'
             }).
             when('/signUp2', {
-                templateUrl: 'components/signUp2/signUp2.html',
+                templateUrl: 'components/signUp2/signUp2Template.html',
                 controller: 'SignUp2Controller'
             }).
             when('/signUp3', {
-                templateUrl: 'components/signUp3/signUp3.html',
+                templateUrl: 'components/signUp3/signUp3Template.html',
                 controller: 'SignUp3Controller'
             }).
             when('/signUp4', {
-                templateUrl: 'components/signUp4/signUp4.html',
+                templateUrl: 'components/signUp4/signUp4Template.html',
                 controller: 'SignUp4Controller'
             }).
             when('/signUpSuccess', {
