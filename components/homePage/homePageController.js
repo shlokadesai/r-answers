@@ -12,6 +12,6 @@ refugeeAnswers.controller('HomePageController', ['$scope', '$routeParams',
     //console.log('window.cs142models.userModel($routeParams.userId)',
     //window.cs142models.userModel(userId));
 
-    $scope.main.logoURL = "logo.jpg";
+    $scope.main.logoURL = "images/logo.png";
 
   }]);

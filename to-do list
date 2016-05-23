@@ -1,13 +1,13 @@
 - design views
 - design model
 - create fake data
-- code views (HTML)
-- style views 
-- add interaction/animation
-- create the app server
-- create the database 
-- input validation
-- add sessions & authentication
-- ionic 
-- notifications
-- hosting the app
+	- code views (HTML)
+	- style views 
+	- add interaction/animation
+	- create the app server to handle api calls 
+	- create the database 
+	- input validation
+	- add sessions & authentication
+	- ionic 
+	- notifications
+	- hosting the app
