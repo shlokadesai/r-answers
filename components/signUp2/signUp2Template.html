@@ -1,0 +1,52 @@
+<div layout="column" layout-align="centre">
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<md-content layout-padding>
+    <div style="font-size:30px; padding:80px">
+      <form name="userForm">
+          <md-input-container class="md-block" flex>
+            <label>First name</label>
+            <input ng-model="user.firstName">
+          </md-input-container>
+          <md-input-container class="md-block" flex>
+            <label>Last Name</label>
+            <input ng-model="theMax">
+          </md-input-container>
+        
+        <md-input-container class="md-block">
+          <label>Age</label>
+          <input ng-model="user.age">
+        </md-input-container>
+
+        <md-input-container class="md-block">
+          <label>Country of origin</label>
+          <input ng-model="user.country">
+        </md-input-container>
+        
+        
+         <md-input-container class="md-block">
+            <label>Current City</label>
+            <input ng-model="user.city">
+         </md-input-container>
+
+         <md-input-container class="md-block">
+          <label>Job/Expertise</label>
+          <textarea ng-model="user.expertise" rows="5" md-select-on-focus></textarea>
+        </md-input-container>
+
+        <md-input-container class="md-block">
+          <label>Languages spoken</label>
+          <textarea ng-model="user.languages" rows="5" md-select-on-focus></textarea>
+        </md-input-container>
+         
+        
+        <md-input-container class="md-block">
+          <label>Short bio</label>
+          <textarea ng-model="user.biography" rows="5" md-select-on-focus></textarea>
+        </md-input-container>
+      </form>
+    </div>
+  </md-content>
+  <div layout="row" layout-align="center center" style="padding-top:20px;">
+		<md-button class="md-raised md-primary nextandforgot" href="#/signUp3"> Next </md-button>
+	</div>
+</div>
