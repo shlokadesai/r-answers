@@ -1,12 +1,54 @@
-<div layout="column" layout-align="centre">
-	<div flex="80">
-		<img ng-src = "{{main.logoURL}}" class="logo-img">
+<div class="loginscreen">
+	<div layout="column">
+		<div flex="80">
+			<img ng-src = "{{main.logoURL}}" class="logo-img">
+		</div>
+
+
+		<div layout-align="center" class="loginboxes">
+			<md-content layout="column">
+				<md-input-container>
+					<label> Username </label>
+					<input type="text"></input>
+				</md-input-container>
+
+				<md-input-container>
+					<label> Password </label>
+					<input type="password"></input>
+				</md-input-container>
+			</md-content>
+		</div>
+			
+		<div layout="row" layout-align="center center" style="padding-top:20px;">
+			<md-button href="", class="md-raised md-primary nextandforgot"> Forgot Password </md-button>
+			<md-button class="md-raised md-primary nextandforgot" href="#/volunteerHomepage"> Next </md-button>
+		</div>
 	</div>
-	<div>
-		<form>
-			Username: <input type = "text" name="user"><br>
-			Password: <input type = "password" name="password">
+</div>
+
+
+
+<!--
+
+ <div layout="column" layout-align="center" class="formcontainer">
+		<form method="post">
+		    Username<input type="text" name="userid"/><br>
+            Password<input type="password" name="password"/><br>
+            <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
 		</form>
 	</div>
 
-</div>
+		<form>
+			Username: <input type = "text" name="user"><br>
+			Password: <input type = "password" name="password">
+
+			<div class="buttons" layout="column" flex="20">
+				<md-button class="md-raised md-primary home-buttons">Forgot Password?</md-button>
+			</div>
+
+		</form>
+	</div>
+
+-->	
+
