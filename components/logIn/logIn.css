@@ -3,11 +3,12 @@
 }
 
 .loginboxes {
-	padding-left: 5cm;
-	padding-right: 5cm;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .nextandforgot {
-	width: 35%;
-
+	width: 40%;
+	padding: 30px;
+	font-size: 25px; 
 }
