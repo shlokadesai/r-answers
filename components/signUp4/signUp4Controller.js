@@ -1,6 +1,6 @@
 'use strict';
 
-refugeeAnswers.controller('SignUpPage4Controller', ['$scope', '$routeParams',
+refugeeAnswers.controller('SignUp4Controller', ['$scope', '$routeParams',
   function ($scope, $routeParams) {
 
   }]);

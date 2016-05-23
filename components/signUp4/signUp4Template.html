@@ -1,0 +1,30 @@
+<div layout="column" layout-align="centre">
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<md-content layout-padding>
+    <div style="font-size:30px; padding:80px">
+      <form name="userForm">
+          <md-input-container class="md-block" flex>
+            <label>Email</label>
+            <input ng-model="user.firstName">
+          </md-input-container>
+          <md-input-container class="md-block" flex>
+            <label>Username</label>
+            <input ng-model="theMax">
+          </md-input-container>
+        
+        <md-input-container class="md-block">
+          <label>Password</label>
+          <input ng-model="user.password" type="password">
+        </md-input-container>
+
+        <md-input-container class="md-block">
+          <label>Retype password</label>
+          <input ng-model="user.password" type="password">
+        </md-input-container>
+      </form>
+    </div>
+  </md-content>
+  <div layout="row" layout-align="center center" style="padding-top:20px;">
+		<md-button class="md-raised md-primary nextandforgot" href="#/signUpSuccess"> Next </md-button>
+	</div>
+</div>
