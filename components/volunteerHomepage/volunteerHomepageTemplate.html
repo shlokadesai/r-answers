@@ -1,0 +1,12 @@
+<div layout="column" layout-align="centre">
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<div flex="80">
+		<img ng-src = "{{main.logoURL}}" class="logo-img">
+	</div>
+	<div class="buttons" layout="column" flex="20">
+		<md-button class="md-raised md-primary volunteer-buttons" href="#/volunteerQsForYou">Questions for you</md-button>
+		<md-button class="md-raised md-primary volunteer-buttons" href="#/volunteerAllQs">Your questions</md-button>
+	</div>
+
+
+</div>

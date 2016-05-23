@@ -73,9 +73,9 @@ refugeeAnswers.config(['$routeProvider',
                 templateUrl: 'components/volunteerAllQuestions/volunteerAllQuestionsTemplate.html',
                 controller: 'VolunteerAllQuestionsController'
             }).
-            when('/volunteerHomePage', {
-                templateUrl: 'components/volunteerHomePage/volunteerHomePageTemplate.html',
-                controller: 'VolunteerHomePageController'
+            when('/volunteerHomepage', {
+                templateUrl: 'components/volunteerHomePage/volunteerHomepageTemplate.html',
+                controller: 'VolunteerHomepageController'
             }).
             when('/volunteerQsForYou', {
                 templateUrl: 'components/volunteerQsForYou/volunteerQsForYouTemplate.html',
