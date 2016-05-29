@@ -1,0 +1,15 @@
+<div>
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<div style="font-size:35px; padding:50px">
+      <p>{{main.question.user.firstName + " asks..."}}</p>
+      <p ngMaxLength="40" style="color:gray;">{{main.question.questionText}}</p>
+      <form>
+          <textarea ng-model="main.answer" rows="7" style="border-color:#B0BEC5; width:100%"></textarea>
+        </form>
+       <div layout="row" style="padding-top:30px;">
+       	 <div flex></div>
+		<md-button class="md-raised md-primary" ng-href="#/categorizeQuestion/{{main.question._id}}" style="font-size:30px; padding:20px"> Send </md-button>
+	   </div>
+
+    </div>
+</div>

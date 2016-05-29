@@ -1,0 +1,20 @@
+<div>
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<div layout="column" style="font-size:30px; padding: 30px">
+		<div style="padding: 30px">
+		<p> {{main.question.askedBy.firstName + " " + main.question.askedBy.lastName + " asks..."}}</p> 
+		<p style="color: gray"> {{main.question.questionText}}</p> 
+		</div>
+		<div style="padding: 30px">
+		<p> {{main.question.answeredBy.firstName + " " + main.question.answeredBy.lastName}}</p> 
+		<p style="color: gray"> {{main.question.answerText}}</p> 
+		</div>
+	</div>
+	<div layout="row" layout-align="center center" style="padding-top:20px;">
+		<div flex></div>
+		<md-button class="md-raised md-primary" href="#/volunteerHomepage" style="font-size:30px; width:400px; padding:20px"> Add to favorites </md-button>
+		<div flex="5"></div>
+	</div>
+
+
+</div>

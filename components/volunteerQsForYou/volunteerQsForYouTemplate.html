@@ -1,0 +1,26 @@
+<div>
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<div layout="column" layout-align="center center">
+		<p ng-model="main.numQuestions" style="font-size:35px;">You have {{main.numQuestions}} new questions!</p>
+	</div>	
+	<div>
+		<md-divider></md-divider>
+		<md-list style="font-size:35px;">
+	      <md-list-item ng-repeat="question in main.questions" >
+	        <img ng-src="images/{{question.user.photo}}" align="center" class="v-face" flex="15"> 
+	        <div style="padding-left:10px;" class="md-list-item-text" flex="60">
+	          
+	          
+	          <p><span>{{question.user.firstName + " asks..."}}</span></p>
+	          <p ngMaxLength="40" style="color:gray;" class="v-truncate">{{question.questionText}}</p>
+	        </div>
+	        <div layout="column" style="font-size:40px;">
+		        <md-button class="md-primary" style="font-size:30px; padding:20px;" ng-href="#/answerQuestion/{{question._id}}">Accept</md-button>
+		        <md-button class="md-primary" style="font-size:30px; padding:20px">Pass</md-button>
+	    	</div>
+	        <md-divider></md-divider>
+	      </md-list-item>
+    </md-list>
+	</div>
+
+</div>

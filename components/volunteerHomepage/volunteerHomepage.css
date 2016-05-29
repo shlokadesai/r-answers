@@ -1,14 +1,28 @@
 .volunteer-buttons {
+	position:relative;
 	width: 75%;
 	padding: 30px;
 	position-top: 50px;
     margin: 30px auto;
     font-size: 40px; 
     font-color:#E0E0E0;
+    overflow: visible;
 
 }
 
 .logo-img {
 	width: 100%;
 	margin: 30px auto;
+}
+
+.notification {
+	position: absolute;
+    top: -20px;
+    left: 700px;
+
+    background-color: rgba(212, 19, 13, 1);
+    color: #fff;
+    border-radius: 200px;
+    padding: 17px 23px;
+    font-size: 45px;
 }

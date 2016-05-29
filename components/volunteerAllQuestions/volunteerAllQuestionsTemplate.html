@@ -1,0 +1,14 @@
+<md-content layout="column" style="min-height:1500px">
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<div layout="column" layout-align="center center" flex>
+		<div layout="row" layout-align="center center" style="padding-top:20px;">
+			<md-button class="md-raised md-primary" style="font-size:40px; width: 650px; padding:30px" ng-href="#/volunteerQuestions/answeredQuestions"> Your answered questions </md-button>
+		</div>
+		<div layout="row" layout-align="center center" style="padding-top:20px;">
+			<md-button class="md-raised md-primary" style="font-size:40px; width: 650px; padding:30px" ng-href="#/volunteerQuestions/browse"> Browse questions </md-button>
+		</div>
+		<div layout="row" layout-align="center center" style="padding-top:20px;">
+			<md-button class="md-raised md-primary" style="font-size:40px; width: 650px; padding:30px" ng-href="#/volunteerQuestions/favorites"> Favorites </md-button>
+		</div>
+	</div>
+</md-content>

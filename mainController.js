@@ -17,7 +17,7 @@ refugeeAnswers.config(['$routeProvider',
                 templateUrl: 'components/answerQuestion/answerQuestionTemplate.html',
                 controller: 'AnswerQuestionController'
             }).
-            when('/answerSubmission', {
+            when('/answerSubmission/:category', {
                 templateUrl: 'components/answerSubmission/answerSubmissionTemplate.html',
                 controller: 'AnswerSubmissionController'
             }).
@@ -29,7 +29,7 @@ refugeeAnswers.config(['$routeProvider',
                 templateUrl: 'components/browseQA/browseQATemplate.html',
                 controller: 'BrowseQAController'
             }).
-            when('/categorizeQuestion', {
+            when('/categorizeQuestion/:questionId', {
                 templateUrl: 'components/categorizeQuestion/categorizeQuestionTemplate.html',
                 controller: 'CategorizeQuestionController'
             }).
@@ -38,8 +38,20 @@ refugeeAnswers.config(['$routeProvider',
                 controller: 'LogInController'
             }).
             when('/questionSubmission', {
-                templateUrl: 'components/homePage/homePageTemplate.html',
-                controller: 'HomePageController'
+                templateUrl: 'components/questionSubmission/questionSubmissionTemplate.html',
+                controller: 'QuestionSubmissionController'
+            }).
+            when('/questionDetailVolunteer/:questionId', {
+                templateUrl: 'components/questionDetailVolunteer/questionDetailVolunteerTemplate.html',
+                controller: 'QuestionDetailVolunteerController'
+            }).
+            when('/questionDetailRefugee/:questionId', {
+                templateUrl: 'components/questionDetailRefugee/questionDetailRefugeeTemplate.html',
+                controller: 'QuestionDetailRefugeeController'
+            }).
+            when('/questionSubmission', {
+                templateUrl: 'components/questionSubmission/questionSubmissionTemplate.html',
+                controller: 'QuestionSubmissionController'
             }).
             when('/refugeeHomepage', {
                 templateUrl: 'components/refugeeHomepage/refugeeHomepageTemplate.html',
@@ -81,6 +93,10 @@ refugeeAnswers.config(['$routeProvider',
                 templateUrl: 'components/volunteerQsForYou/volunteerQsForYouTemplate.html',
                 controller: 'VolunteerQsForYouController'
             }).
+            when('/volunteerQuestions/:type', {
+                templateUrl: 'components/volunteerQuestions/volunteerQuestionsTemplate.html',
+                controller: 'VolunteerQuestionsController'
+            }).
             otherwise({
                 redirectTo: '/homePage'
             });
@@ -107,4 +123,6 @@ refugeeAnswers.controller('MainController', ['$scope',
     function ($scope) {
         $scope.main = {};
         $scope.main.title = 'Users';
+        $scope.main.backButton = false; 
+        
     }]);

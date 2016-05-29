@@ -1,0 +1,21 @@
+<div>
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	
+
+	<div layout="column" style="font-size:45px; padding: 30px">
+		<div style="padding: 10px">
+		<p> {{main.question.questionText}}</p> 
+		</div>
+		<ul class="progress-indicator" style="font-size:30px; padding-top:100px;">
+			<li class="completed "> <span class="bubble md-primary"></span> Delivered </li>
+			<li> <span class="bubble md-primary"></span> Read </li>
+			<li> <span class="bubble md-primary"></span> Answered </li>
+		</ul>
+		<div style="padding: 10px">
+		
+		<p style="color: gray">Your question has been assigned to a volunteer and will be answered shortly.</p> 
+		</div>
+	</div>
+
+
+</div>

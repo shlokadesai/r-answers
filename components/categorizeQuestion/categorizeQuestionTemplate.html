@@ -1,0 +1,25 @@
+<md-content layout="column" style="min-height:1600px">
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<div layout="column" layout="center center" style="color:gray; font-size:30px; min-height:500px; padding:100px">
+		<p style="font-size:50px">You have answered {{main.question.user.firstName}}'s question! What category would you put that in so that it is easier to find later?</p>
+		<md-radio-group ng-model="main.category" style="padding:40px; font-size:50px">
+		  
+	      <md-radio-button value="Health" class="md-primary">
+	      	Health 
+	      	
+	  	  </md-radio-button>
+	      <md-radio-button value="Transportation" class="md-primary">Transportation
+	      	<md-tooltip style="font-size:38px; width:850px; ">Eg. How do I get to the DMV in Fremont?</md-tooltip>
+	      </md-radio-button>
+	      <md-radio-button value="Food" class="md-primary">Food</md-radio-button>
+	  
+	      <md-radio-button value="Jobs" class="md-primary">Jobs</md-radio-button>
+	      <md-radio-button value="Fun" class="md-primary">Fun</md-radio-button>
+	      <md-radio-button value="Cases" class="md-primary">Cases</md-radio-button>
+	      <md-radio-button value="Other" class="md-primary">Other</md-radio-button>
+    	</md-radio-group>
+    	<div layout="row" layout-align="center center" style="padding-top:60px;">
+		<md-button class="md-raised md-primary" ng-href="#/answerSubmission/{{main.category}}" style="font-size:30px; padding:20px"> Next </md-button>
+	</div>
+	</div>
+</md-content>

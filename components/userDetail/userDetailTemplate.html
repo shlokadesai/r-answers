@@ -1,0 +1,17 @@
+<div>
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div> 
+	<div layout="row" layout-align="center center" style="padding-top:20px;">
+		<img ng-src="images/{{main.user.photo}}" class="profile-face" flex="45"> 
+	</div>
+	<div layout="column" layout-align="center center"style="font-size:70px">
+		<p>{{main.user.firstName + " " + main.user.lastName}} </p>
+	</div>
+	<div layout="column" style="font-size:40px; padding-left:50px">
+		<p>Country: <span style="color:gray">{{main.user.country}}</span> </p>
+		<p>Location: <span style="color:gray">{{main.user.location}}</span> </p>
+		<p>Occupation: <span style="color:gray">{{main.user.occupation}}</span> </p>
+		<p>Bio: <span style="color:gray">{{main.user.bio}}</span> </p>
+		
+	</div>
+
+</div>

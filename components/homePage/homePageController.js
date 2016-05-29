@@ -2,6 +2,7 @@
 
 refugeeAnswers.controller('HomePageController', ['$scope', '$routeParams',
   function ($scope, $routeParams) {
+    $scope.$parent.main.title = "";
     /*
      * Since the route is specified as '/users/:userId' in $routeProvider config the
      * $routeParams  should have the userId property set with the path from the URL.

@@ -1,0 +1,13 @@
+<md-content layout="column" style="min-height:1600px">
+	<div ng-include="'components/navBar/navBarTemplate.html'" ng-controller="NavBarController"></div>
+	<div layout="column" layout-align="center center" style="color:gray; font-size:40px; min-height:500px; padding:100px" flex>
+		<p>Awesome! Thank was logged under {{main.category}}.</p>
+		<div layout="row" layout-align="center center" style="padding-top:20px;">
+			<md-button class="md-raised md-primary" href="#/volunteerQsForYou" style="font-size:30px; width: 550px;  padding:20px;">Back to questions for you</md-button>
+		</div> 
+		<div layout="row" layout-align="center center" style="padding-top:20px;">
+			<md-button class="md-raised md-primary" href="#/volunteerAllQuestions" style="font-size:30px; width: 550px; padding:20px">All Questions</md-button>
+		</div>
+
+	</div>
+</md-content>

@@ -162,9 +162,9 @@
    // Create initial questions.
    var question1 = {
       _id: "57231f1a30e4351f4e9f4bdd",
-      questionText: "Where is the nearest Hindu temple to Oakland", 
-      answerText: "On the corner of Main St. and third. You can get there by taking a BART to the Oakland BART station",
-      askedBy: "57231f1a30e4351f4e9f4bd7", 
+      questionText: "Where is the nearest Hindu temple to Oakland?", 
+      answerText: "On the corner of Main St. and third. You can get there by taking a BART to the Oakland BART station.",
+      askedBy: "57231f1a30e4351f4e9f4bd8", 
       answeredBy: "57231f1a30e4351f4e9f4bd9", 
       timeAsked: "2012-08-30 10:44:23", 
       timeAnswered: "2012-08-30 11:00:23",
@@ -175,12 +175,12 @@
    var question2 = {
       _id: "57231f1a30e4351f4e9f4bde",
       questionText: "How can I get to the DMV in Oakland", 
-      answerText: "You can take the BART to Rockridge station. It should be around 4 dollars and then walk. But I would recommend trying to finding a ride because it is much easier. You can try rideshare.com",
+      answerText: "You can take the BART to Rockridge station. It should be around 4 dollars and then walk. But I would recommend trying to finding a ride because it is much easier. You can try rideshare.com.",
       askedBy: "57231f1a30e4351f4e9f4bd7", 
       answeredBy: "57231f1a30e4351f4e9f4bda", 
       timeAsked: "2012-09-30 10:44:23", 
       timeAnswered: "2012-09-30 11:00:23",
-      category: "Transportaion",
+      category: "Transportation",
       isAnswered: true
    }; 
 
